@@ -1,0 +1,21 @@
+{
+  "name": "typescriptbd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "@types/readline-sync": "^1.4.8",
+    "mysql2": "^3.9.4",
+    "prisma": "^5.15.1",
+    "readline-sync": "^1.4.10"
+  }
+}

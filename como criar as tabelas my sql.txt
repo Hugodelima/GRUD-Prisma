@@ -1,0 +1,17 @@
+create table users(
+    id int auto_increment primary key,
+    name varchar(255) not null,
+    email varchar(255) not null,
+    password varchar(255) not null
+);
+
+create table customer_services (
+    id int auto_increment primary key,
+    customer_name varchar(255) not null,
+    company_name varchar(255) not null,
+    description varchar(255) not null,
+    date varchar(255) not null,
+    status varchar(255) not null,
+    users_id int,
+    FOREIGN KEY (users_id) REFERENCES users(id)
+);
